@@ -1,0 +1,42 @@
+/*h1 {
+	font-family:"Roboto", serif;
+}*/
+
+body {
+  font-family: "Roboto", serif;	
+}
+
+html { 
+  background: url('background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	display: flex;	
+	justify-content: center;
+	color: ghostwhite;
+	flex-wrap: wrap;
+  	font-size: 5vw;
+  	height: 3rem;
+}
+
+#buffer {
+	height: 2em;
+	padding-top: 5%;
+}
+
+.row {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 3vw;
+	padding-top: 65%;
+	padding-bottom: 10%;
+}
+
